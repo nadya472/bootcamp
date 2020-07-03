@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "Poppins";
+	src:url('Poppins-Medium.TTF');
+}
+
+body {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1170px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: poppins;
+}
+
+ul {
+	font-family: poppins;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	background-color: #222f3e;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+	
+.header-left {
+	float: left;
+	color: white;
+	padding-left: 0;
+}
+
+.header-right {
+	float: right;
+	margin-rigth: -25;
+}
+
+.header-right a {
+	line-height: 65px;
+	padding: 0 25px;
+	color: white;
+	display: block;
+	float: right;
+	transition: all 0.5s;
+}
+}
+
+a {
+	cursor: pointer;
+	transition: 0.25s all;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
